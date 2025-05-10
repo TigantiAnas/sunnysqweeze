@@ -1,0 +1,192 @@
+/* innovation.css */
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #ffffff);
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .contenu {
+    padding: 40px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Styles pour la carte mentale */
+  .mind-map {
+    margin: 50px auto;
+    position: relative;
+    width: 90%;
+    max-width: 1000px;
+  }
+  
+  .center-title {
+    background-color: #FFA726;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 15px 25px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .branches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .branch {
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .branch:hover {
+    transform: translateY(-5px);
+  }
+  
+  .branch-title {
+    font-weight: bold;
+    color: #5D4037;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #FFA726;
+  }
+  
+  .branch-items {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+  }
+  
+  .branch-items li {
+    padding: 5px 0;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .branch-items li:before {
+    content: "•";
+    color: #FFA726;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: -2px;
+
+
+
+
+
+
+
+
+
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #f01313;
+    background: #f9f9f9;
+    }
+    
+    nav.navbar {
+    background: rgba(17, 16, 16, 0.9);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    }
+    
+    nav.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav.navbar ul li {
+    margin: 0 20px;
+    }
+    
+    nav.navbar ul li a {
+    text-decoration: none;
+    color: #f7f3f3;
+    font-weight: 500;
+    transition: color 0.3s;
+    }
+    
+    nav.navbar ul li a:hover {
+    color: #009688;
+    }
+
+    header {
+    text-align: center;
+    padding: 50px 0;
+    }
+    
+    .intro video {
+    width: 100%;
+    height: auto;
+    }
+    
+    .intro p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px;
+    }
+    
+    .contenu {
+    padding: 40px;
+    }
+    
+    .contenu h2 {
+    margin-top: 30px;
+    }
+    
+    .contenu ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+    .contenu ul li {
+    padding: 5px 0;
+    }
+    
+    
+    
+    
+    /* Mode sombre automatique */
+    @media (prefers-color-scheme: dark) {
+    
+    nav.navbar {
+        background: rgba(18, 18, 18, 0.9);
+    }
+    nav.navbar ul li a {
+        color: #e0e0e0;
+    }
+    nav.navbar ul li a:hover {
+        color: #80cbc4;
+    }
+    
+    
+      
+
+
+
+
+
+
+  }

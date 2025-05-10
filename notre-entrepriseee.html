@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Notre Entreprise - SunnySqueeze</title>
+  <link rel="stylesheet" href="notre-entreprise.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <ul>
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="notre-entreprise.html">Notre Entreprise</a></li>
+    <li><a href="demarche-qualite.html">Démarche Qualité</a></li>
+    <li><a href="innovation.html">Innovation</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<header>
+  <h1>Notre Entreprise</h1>
+</header>
+
+<section class="intro">
+  <video src="video-entreprise.mp4" autoplay muted loop></video>
+  <p>Bienvenue chez SunnySqueeze, le meilleur du jus belge.</p>
+</section>
+
+<section class="contenu">
+  <h2>Notre mission</h2>
+  <p>Proposer des jus 100% naturels valorisant notre terroir.</p>
+</section>
+
+<script>
+// JavaScript pour animations de scroll
+window.addEventListener('scroll', () => {
+  document.querySelectorAll('section, header, .intro, .formulaire').forEach(el => {
+    if (el.getBoundingClientRect().top < window.innerHeight * 0.8) {
+      el.classList.add('visible');
+    }
+  });
+});
+</script>
+
+</body>
+</html>
+
+
