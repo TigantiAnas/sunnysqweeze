@@ -22,7 +22,8 @@
 </header>
 
 <section class="intro">
-  <video src="video-entreprise.mp4" autoplay muted loop></video>
+  <video id="video" src="video-entreprise.mp4" autoplay loop controls></video>
+  <button onclick="document.getElementById('video').play(); this.remove()">▶ Activer la vidéo</button>
   <p>Bienvenue chez SunnySqueeze, le meilleur du jus belge.</p>
 </section>
 
